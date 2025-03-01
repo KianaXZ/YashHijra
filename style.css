@@ -1,0 +1,39 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: black;
+}
+
+:root{
+    --x : 10%;
+    --y : 100%;
+
+}
+
+.left-about-me{
+    height: 20%;
+    width: 90%;
+    background-color: white;
+    padding-top: 10px;
+}
+    
+
+
+.div-container{
+    border:2px red dotted;
+    /* margin-top: var(--x); */
+    height: 90svh;
+    width: 100%;
+}
+
+#header-intro{
+    color: orange;
+}
+
+#yashImg{
+    width: var(--y);
+    aspect-ratio: 4/3;
+}
